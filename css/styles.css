@@ -201,3 +201,77 @@ header .container-menu #btn-menu:checked ~ .menu {
   font-weight: 100;
   letter-spacing: 1.5px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  position: relative;
+  z-index: 100;
+}
+
+main .contaner-blog-main {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 150px;
+  left: 0;
+}
+main .contaner-blog-main .container-blog-firts {
+  position: inherit;
+  width: 100%;
+  height: auto;
+  background-color: #e6e9ed;
+}
+main .contaner-blog-main .container-blog-firts .blog-main {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .contaner-blog-main .container-blog-firts .blog-main .text-firts {
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+main .contaner-blog-main .container-blog-firts .blog-main .container-img {
+  width: 100%;
+  height: auto;
+}
+main .contaner-blog-main .container-blog-firts .blog-main .container-img img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+main .contaner-blog-main .container-blog-firts .blog-main .text-second {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 300;
+}
+main .contaner-blog-main .container-blog-firts .blog-main .text-resumen {
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.5px;
+}
+main .contaner-blog-main .container-blog-firts .blog-main .boton {
+  display: block;
+  width: 40%;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+main .contaner-blog-main .container-blog-firts .blog-main .boton a {
+  color: #000;
+  text-decoration: none;
+}
