@@ -16,6 +16,11 @@ header .container-menu {
   height: auto;
   margin: 0 auto;
 }
+@media only screen and (min-width: 321px) {
+  header .container-menu {
+    height: 10vh;
+  }
+}
 header .container-menu input {
   display: none;
 }
@@ -88,11 +93,22 @@ header .container-menu #btn-menu:checked ~ .menu {
   justify-content: space-evenly;
   align-items: center;
 }
+@media only screen and (min-width: 684px) {
+  .container-logo {
+    height: 100px;
+    overflow: hidden;
+  }
+}
 .container-logo .logo-movil {
   width: 30%;
   max-width: 100%;
   height: auto;
   text-align: center;
+}
+@media only screen and (min-width: 684px) {
+  .container-logo .logo-movil {
+    width: 20%;
+  }
 }
 .container-logo .text-sobremi-movil {
   font-weight: 100;
@@ -117,17 +133,33 @@ header .container-menu #btn-menu:checked ~ .menu {
 .hero .hero-container .hero-image {
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero .hero-container .hero-image img {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
+@media only screen and (min-width: 684px) {
+  .hero .hero-container .hero-image img {
+    width: 60%;
+  }
+}
 .hero .hero-container .hero-text-main {
   width: 100%;
   height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+@media only screen and (min-width: 684px) {
+  .hero .hero-container .hero-text-main {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .hero .hero-container .hero-text-main .hero-text {
   width: 90%;
@@ -153,11 +185,19 @@ header .container-menu #btn-menu:checked ~ .menu {
   padding: 10px 15px;
   cursor: pointer;
 }
+@media only screen and (min-width: 684px) {
+  .hero .hero-container .boton {
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .hero .hero-container .boton a {
   color: #fff;
   font-size: 16px;
   text-decoration: none;
   font-family: "Playfair Display", serif;
-  letter-spacing: 2px;
   font-weight: 100;
+  letter-spacing: 1.5px;
 }
