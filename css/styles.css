@@ -202,12 +202,6 @@ header .container-menu #btn-menu:checked ~ .menu {
   letter-spacing: 1.5px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 header {
   height: 10vh;
   position: relative;
@@ -252,13 +246,15 @@ main .contaner-blog-main .container-blog-firts .blog-main .text-second {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 100;
 }
 main .contaner-blog-main .container-blog-firts .blog-main .text-resumen {
   font-size: 18px;
   font-weight: 100;
   font-family: "Playfair Display", serif;
   letter-spacing: 1.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 main .contaner-blog-main .container-blog-firts .blog-main .boton {
   display: block;
@@ -272,6 +268,81 @@ main .contaner-blog-main .container-blog-firts .blog-main .boton {
   cursor: pointer;
 }
 main .contaner-blog-main .container-blog-firts .blog-main .boton a {
+  color: #000;
+  text-decoration: none;
+}
+main .line {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 0.3;
+}
+main .container-blogs-posts {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 85%;
+  left: 0;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  main .container-blogs-posts {
+    top: 105%;
+  }
+}
+main .container-blogs-posts .container-blogs-articles {
+  width: 100%;
+  height: auto;
+}
+main .container-blogs-posts .container-blogs-articles .container-card-post {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .container-blogs-posts .container-blogs-articles .container-card-post .blog-main {
+  width: 100%;
+  height: auto;
+  border: 1px solid #000;
+  margin-bottom: 25px;
+}
+main .container-blogs-posts .container-blogs-articles .container-card-post .blog-main .container-img {
+  width: 100%;
+  height: auto;
+}
+main .container-blogs-posts .container-blogs-articles .container-card-post .blog-main .container-img img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+main .container-blogs-posts .container-blogs-articles .container-card-post .blog-main .text-second {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 0 10px;
+}
+main .container-blogs-posts .container-blogs-articles .container-card-post .blog-main .text-resumen {
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding: 0 10px;
+}
+main .container-blogs-posts .container-blogs-articles .container-card-post .blog-main .boton {
+  display: block;
+  width: 40%;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+main .container-blogs-posts .container-blogs-articles .container-card-post .blog-main .boton a {
   color: #000;
   text-decoration: none;
 }
