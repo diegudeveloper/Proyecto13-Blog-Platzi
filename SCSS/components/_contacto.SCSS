@@ -1,0 +1,17 @@
+.contacto {
+    @include container-firt;
+    background-color: #e6e9ed;
+    .container-contacto {
+        @include container-secon;
+        .contact-text {
+            width: 100%;
+            height: auto;
+            font-size: 22px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 40px;
+            padding: 30px 0;
+        }
+
+    }
+}

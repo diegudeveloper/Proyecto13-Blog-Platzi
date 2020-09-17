@@ -26,6 +26,12 @@
     .text-sobremi-movil {
         font-weight: 100;
         font-size: 18px;
+        a {
+            text-decoration: none;
+            &:hover {
+                border-bottom: 1px solid #9555af;
+            }
+        }
     }
 }
 
