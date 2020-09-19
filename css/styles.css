@@ -298,7 +298,7 @@ main .contaner-blog-main .container-blog-firts .blog-main .boton {
   cursor: pointer;
 }
 main .contaner-blog-main .container-blog-firts .blog-main .boton a {
-  color: #000;
+  color: #e6e9ed;
   text-decoration: none;
 }
 main .line {
@@ -385,7 +385,7 @@ main .container-blogs-posts .container-blogs-articles .container-card-post .blog
   cursor: pointer;
 }
 main .container-blogs-posts .container-blogs-articles .container-card-post .blog-main .dateandbtn .boton a {
-  color: #000;
+  color: #e6e9ed;
   text-decoration: none;
 }
 
@@ -592,6 +592,10 @@ footer .footer span {
 }
 .redes-sociales .container-redes img {
   width: 12%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .contacto {
