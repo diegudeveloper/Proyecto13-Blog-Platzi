@@ -64,7 +64,7 @@
         .hero-text-main {
             width: 100%;
             height: auto;
-            margin-top: 10px;
+            margin-top: 50px;
             margin-bottom: 10px;
             @media only screen and (min-width: 684px) {         
                 @include container-secon-land;
@@ -86,7 +86,9 @@
             display:block;
             width: 60%;
             text-align: center;
-            margin: 0 auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
             text-decoration: none;
             color: #fff;
             border: solid 1px transparent;
@@ -94,6 +96,7 @@
             background-color: #9555af;
             padding: 10px 15px;
             cursor: pointer;
+
             @media only screen and (min-width: 684px) {         
                 @include container-secon-btn;
             }  

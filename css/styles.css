@@ -29,6 +29,7 @@ header .container-menu .bottom {
   width: 100%;
   height: auto;
   padding-top: 10px;
+  padding-left: 10px;
 }
 header .container-menu .bottom img {
   width: 30px;
@@ -151,7 +152,7 @@ header .container-menu #btn-menu:checked ~ .menu {
 .hero .hero-container .hero-text-main {
   width: 100%;
   height: auto;
-  margin-top: 10px;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 @media only screen and (min-width: 684px) {
@@ -178,7 +179,9 @@ header .container-menu #btn-menu:checked ~ .menu {
   display: block;
   width: 60%;
   text-align: center;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
   text-decoration: none;
   color: #fff;
   border: solid 1px transparent;
@@ -610,4 +613,35 @@ footer .footer span {
   text-transform: uppercase;
   margin-top: 40px;
   padding: 30px 0;
+}
+.contacto .container-contacto .email {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.contacto .container-contacto .email .box {
+  width: 60%;
+  height: auto;
+  text-align: center;
+}
+.contacto .container-contacto .email .box img {
+  width: 40%;
+}
+.contacto .container-contacto .email .boxtext {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.contacto .container-contacto .email .boxtext .escrib {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin: 15px 0;
 }

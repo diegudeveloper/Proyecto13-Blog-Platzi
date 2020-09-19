@@ -12,6 +12,35 @@
             margin-top: 40px;
             padding: 30px 0;
         }
+        .email {
+            @include container-secon;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 30px;
+            .box {
+                width: 60%;
+                height: auto;
+                text-align: center;
+                img {
+                    width: 40%;
+                }
+            }
+            .boxtext {
+                width: 90%;
+                height: auto;
+                text-align: center;
+                padding-bottom: 30px;
+                .escrib {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 16px;
+                    margin: 15px 0;
+                }
+            }
+
+        }
 
     }
 }
