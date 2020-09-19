@@ -506,6 +506,11 @@ footer .footer span {
   max-width: 100%;
   height: auto;
 }
+@media only screen and (min-width: 768px) {
+  .items .items1 .blog-main .container-img img {
+    width: 60%;
+  }
+}
 .items .items1 .blog-main .text-second {
   margin-top: 15px;
   margin-bottom: 15px;
