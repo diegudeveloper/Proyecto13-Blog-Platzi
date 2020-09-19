@@ -16,6 +16,9 @@ main {
             height: 100px;
             overflow: hidden;
         }
+        @media only screen and (min-width: 768px) {         
+            height: 10vh;
+        }  
         .logo-movil {
             width: 30%;
             max-width: 100%;
@@ -40,6 +43,9 @@ main {
             background-color: #e6e9ed;
             .blog-main {
                 @include container-secon;
+                @media only screen and (min-width: 684px) {         
+                    @include container-secon;
+                }
                 .text-firts {
                     font-family: $text_general;
                     font-weight: 100;
@@ -53,6 +59,9 @@ main {
                         width: 100%;
                         max-width: 100%;
                         height: auto;
+                        @media only screen and (min-width: 684px) {         
+                            width: 60%;
+                        }
                     }
                 }
                 .text-second {
@@ -79,7 +88,11 @@ main {
                     border: 1px solid #000;
                     padding: 10px 15px;
                     cursor: pointer;  
-                    
+                    @media only screen and (min-width: 684px) {         
+                        width: 20%;
+                        margin-bottom: 30px;
+                        margin-top: 5px;
+                    }
                     a {
                         color: #000;
                         text-decoration: none;
@@ -99,11 +112,18 @@ main {
     .container-blogs-posts {
         width: 100%;
         height: auto;
-        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            top: 105%;
-        }
+        @media only screen and (min-width: 684px) {         
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }  
         .container-blogs-articles {
             @include container-firt;
+            @media only screen and (min-width: 684px) {         
+                width: 48%;
+                height: auto;
+            }  
             .container-card-post {
                 @include container-secon;
                 .blog-main {
