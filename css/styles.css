@@ -114,6 +114,7 @@ header .container-menu #btn-menu:checked ~ .menu {
 }
 .container-logo .text-sobremi-movil a {
   text-decoration: none;
+  color: #000;
 }
 .container-logo .text-sobremi-movil a:hover {
   border-bottom: 1px solid #9555af;
@@ -298,7 +299,7 @@ main .contaner-blog-main .container-blog-firts .blog-main .boton {
   cursor: pointer;
 }
 main .contaner-blog-main .container-blog-firts .blog-main .boton a {
-  color: #e6e9ed;
+  color: #000;
   text-decoration: none;
 }
 main .line {
@@ -385,7 +386,7 @@ main .container-blogs-posts .container-blogs-articles .container-card-post .blog
   cursor: pointer;
 }
 main .container-blogs-posts .container-blogs-articles .container-card-post .blog-main .dateandbtn .boton a {
-  color: #e6e9ed;
+  color: #000;
   text-decoration: none;
 }
 
