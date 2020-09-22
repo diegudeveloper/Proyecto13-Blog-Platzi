@@ -36,21 +36,35 @@ main {
     .contaner-blog-main {
         width: 100%;
         height: 550px;
+        @media only screen and (min-width: 1024px) {         
+            height: 700px;
+        }
         .container-blog-firts {
             position: inherit;
             width: 100%;
             height: 550px;
             background-color: #e6e9ed;
+            @media only screen and (min-width: 1024px) {         
+                height: 700px;
+            }
             .blog-main {
                 @include container-secon;
                 @media only screen and (min-width: 684px) {         
                     @include container-secon;
+                }
+                @media only screen and (min-width: 1024px) {         
+                    text-align: center;
                 }
                 .text-firts {
                     font-family: $text_general;
                     font-weight: 100;
                     padding-top: 15px;
                     margin-bottom: 15px;
+                    @media only screen and (min-width: 1024px) {         
+                        width: 100%;
+                        padding-top: 30px;
+                        padding-bottom: 15px;
+                    }
                 }
                 .container-img {
                     width: 100%;
@@ -77,6 +91,11 @@ main {
                     letter-spacing: 1.5px;
                     padding-top: 15px;
                     padding-bottom: 15px;
+                    @media only screen and (min-width: 1024px) {         
+                        width: 60%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
                 }
                 .boton {
                     display: block;
@@ -133,6 +152,9 @@ main {
                     border: 1px solid #000;
                     margin-bottom: 25px;
                     overflow: hidden;
+                    @media only screen and (min-width: 1024px) {         
+                        height: 600px;
+                    }
                     .container-img {
                         @include container-firt;
                         img {

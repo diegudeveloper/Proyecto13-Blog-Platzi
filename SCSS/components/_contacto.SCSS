@@ -6,6 +6,10 @@ html {
     background-color: #e6e9ed;
     .container-contacto {
         @include container-secon;
+        @media only screen and (min-width: 1024px) {         
+           display: flex;
+           flex-wrap: wrap;
+        }
         .contact-text {
             width: 100%;
             height: auto;
@@ -22,6 +26,9 @@ html {
             justify-content: space-evenly;
             align-items: center;
             margin-bottom: 30px;
+            @media only screen and (min-width: 1024px) {         
+                width: 48%
+            }
             .box {
                 width: 60%;
                 height: auto;
