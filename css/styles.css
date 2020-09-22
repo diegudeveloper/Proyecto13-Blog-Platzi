@@ -31,6 +31,11 @@ header .container-menu .bottom {
   padding-top: 10px;
   padding-left: 10px;
 }
+@media only screen and (min-width: 1024px) {
+  header .container-menu .bottom {
+    display: none;
+  }
+}
 header .container-menu .bottom img {
   width: 30px;
 }
@@ -49,20 +54,51 @@ header .container-menu .menu {
     height: 90vh;
   }
 }
+@media only screen and (min-width: 1024px) {
+  header .container-menu .menu {
+    height: 10vh;
+    display: flex;
+    transform: translateX(0);
+    background-color: #fff;
+  }
+}
 header .container-menu .menu .small-container {
   width: 100%;
   height: auto;
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+}
+@media only screen and (min-width: 1024px) {
+  header .container-menu .menu .small-container {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vh;
+    justify-content: initial;
+    align-content: initial;
+    flex-direction: initial;
+    justify-content: flex-end;
+  }
 }
 header .container-menu .menu .small-container li {
   width: 100%;
   height: auto;
   list-style: none;
   padding: 20px 0;
+}
+@media only screen and (min-width: 1024px) {
+  header .container-menu .menu .small-container li {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 header .container-menu .menu .small-container li a {
   text-decoration: none;
@@ -75,6 +111,16 @@ header .container-menu .menu .small-container li a {
     font-size: 30px;
   }
 }
+@media only screen and (min-width: 768px) {
+  header .container-menu .menu .small-container li a {
+    padding-left: 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  header .container-menu .menu .small-container li a {
+    font-size: 18px;
+  }
+}
 header .container-menu .menu .small-container li:hover {
   background-color: #fff;
 }
@@ -83,6 +129,16 @@ header .container-menu .menu .small-container li:hover > a {
 }
 header .container-menu .menu .small-container .logo {
   display: none;
+}
+@media only screen and (min-width: 1024px) {
+  header .container-menu .menu .small-container .logo {
+    display: block;
+    height: auto;
+    margin-right: 15%;
+  }
+}
+header .container-menu .menu .small-container .logo img {
+  width: 50%;
 }
 header .container-menu #btn-menu:checked ~ .menu {
   transform: translateX(0);
@@ -155,6 +211,11 @@ header .container-menu #btn-menu:checked ~ .menu {
 @media only screen and (min-width: 768px) {
   .hero {
     height: calc(80vh - 48px);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hero {
+    height: calc(90vh - 48px);
   }
 }
 .hero .hero-container {
@@ -277,6 +338,11 @@ main .container-logo {
 @media only screen and (min-width: 768px) {
   main .container-logo {
     height: 10vh;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  main .container-logo {
+    display: none;
   }
 }
 main .container-logo .logo-movil {
