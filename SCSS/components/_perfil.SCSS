@@ -4,6 +4,9 @@
     @media only screen and (min-width: 1024px) {         
         height: 1100px;
     }
+    @media only screen and (max-width: 1440px) {         
+        height: 490px;
+    }
     .items1 {
         position: inherit;
         width: 100%;
@@ -12,11 +15,20 @@
         @media only screen and (min-width: 1024px) {         
             height: 1100px;
         }
+        @media only screen and (max-width: 1440px) {         
+            height: 490px;
+        }
         .blog-main {
             @include container-secon;
             @media only screen and (min-width: 1024px) {         
                 height: 1100px;
                 text-align: center;
+            }
+            @media only screen and (max-width: 1440px) {
+                height: 490px;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 2fr; 
             }
             .text-firts {
                 font-family: $text_general;
@@ -28,16 +40,29 @@
                     padding-bottom: 15px;
                     font-size: 35px;
                 }
+                @media only screen and (max-width: 1440px) {
+                    height: auto;
+                    grid-column: 1;
+                    grid-row: 1;
+                }
             }
             .container-img {
                 width: 100%;
                 height: auto;
+                @media only screen and (max-width: 1440px) {
+                    grid-column: 1;
+                    grid-row: 1;
+                    margin-top: 100px;
+                }
                 img {
                     width: 100%;
                     max-width: 100%;
                     height: auto;
                     @media only screen and (min-width: 768px) {         
                         width: 60%;
+                    }
+                    @media only screen and (max-width: 1440px) {         
+                        width: 60%
                     } 
                 }
             }
@@ -49,6 +74,13 @@
                 @media only screen and (min-width: 1024px) {         
                    font-size: 35px;
                    padding-top: 30px;
+                }
+                @media only screen and (max-width: 1440px) {
+                    width: 100%;
+                    grid-column: 2;
+                    grid-row: 1;
+                    text-align: start;
+                    padding-top: 30px;
                 }
             }
             .text-resumen {
@@ -63,6 +95,14 @@
                     margin-right: auto;
                     margin-left: auto;
                     font-size: 22px;
+                }
+                @media only screen and (max-width: 1440px) {
+                    width: 60%;
+                    grid-column: 2;
+                    grid-row: 1;
+                    margin-top: 200px;
+                    margin-left: 0;
+                    text-align: start;
                 }
             }
             .boton {
@@ -152,7 +192,6 @@
                         height: auto;
                         margin-left: 10px;
                     }
-                
                     .boton {
                         display: block;
                         width: 45%;

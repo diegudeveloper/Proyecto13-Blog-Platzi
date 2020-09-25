@@ -78,6 +78,9 @@
                 @media only screen and (min-width: 684px) {         
                     width: 60%;
                 }
+                @media only screen and (min-width: 1440px) {         
+                    width: 40%;
+                }
             }
         }
         .hero-text-main {
@@ -103,6 +106,9 @@
                 font-weight: 300;
                 text-transform: capitalize;
                 font-size: 20px;
+                @media only screen and (min-width: 1440px) {         
+                    width: 50%;
+                }
             }
         }
         .boton {
@@ -125,6 +131,9 @@
             @media only screen and (min-width: 684px) {         
                 @include container-secon-btn;
                 margin-bottom: 30px;
+            }
+            @media only screen and (min-width: 1440px) {         
+                width: 10%;
             }  
             a {
                 color: #fff;
