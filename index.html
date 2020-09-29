@@ -1,55 +1,45 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,400&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Blog - Platzi</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Blog</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/font/flaticon.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 </head>
-
 <body>
     <header>
-        <div class="container-menu">
-            <input type="checkbox" id="btn-menu">
-            <label for="btn-menu" class="bottom">
-                <img src="img/Boton-menu/botonmenu.svg" alt="">
-            </label>
-            <nav class="menu">
-                <ul class="small-container">
-                    <li class="logo"><a href="img/Logo/che-logo.jpg"></a></li>
-                    <li><a href="perfil.html">Sobre Mi</a></li>
-                    <li><a href="blogs.html">Blogs Destacados</a></li>
-                    <li><a href="perfil.html#contact">Contactame</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <picture class="container-logo">
-            <img src="img/Logo/che-logo.jpg" alt="Logo" class="logo-movil">
-            <h2 class="text-sobremi-movil"><a href="perfil.html">Sobre Mi</a></h2>
-        </picture>
-        <section class="hero">
-            <div class="hero-container">
-                <div class="hero-image">
-                    <img src="img/Chef/banner_small.jpg" alt="">
-                </div>
-                <div class="hero-text-main">
-                    <h1 class="hero-text">Conoce las novedades y noticias del mundo Culinario</h1>
-                </div>
-                <div class="boton"><a href="blogs.html"> Entra Ya!</a></div>
+        <section class="header-icons-container">
+            <div class="icons">
+                <a href="/"><span class="flaticon-001-facebook"></span></a>
+                <a href="/"><span class="flaticon-002-twitter"></span></a>
+                <a href="/"><span class="flaticon-011-instagram"></span></a>
+                <a href="/"><span class="flaticon-010-linkedin"></span></a>
+                <a href="/"><span class="flaticon-008-youtube"></span></a>
             </div>
         </section>
+        <nav>
+            <section class="nav-logo-container">
+                <a href="/"><img src="assets/img/che-logo.jpg" alt="Logo de mi blog" > </a>
+            </section>
+            <section class="profile-link">
+                <a href="perfil.html">Sobre mí</a>
+            </section>
+        </nav>
+    </header>
+    <main class="home-main">
+        <section>
+            <h1 class="home-main-text">Conoce las novedades y <br> noticias del Mundo Culinario</h1>
+            <a class="home-main-button" href="blogs.html">Entra ya!</a>
+        </section>
     </main>
-
     <footer>
         <div class="footer">
             <h2>© Diegu <span>{</span> developer |  <span class="ph">Curso de Desarrollo Web Online - PLATZI</span></h2>
         </div>
     </footer>
-    
-    
 </body>
 </html>
