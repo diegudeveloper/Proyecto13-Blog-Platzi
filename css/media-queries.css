@@ -30,6 +30,15 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
+
+    .home-main  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-main section {
+        margin-top: 0;
+    }
     .contact-main-container div {
         width: 90%;
         margin: 0 auto;
