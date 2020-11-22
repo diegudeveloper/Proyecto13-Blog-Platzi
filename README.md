@@ -15,13 +15,13 @@ Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 12](https:
 <details>
     <summary>🖥 Desktop version</summary>
 
-![]()
+![](https://github.com/diegudeveloper/Proyecto13-Blog-Platzi/blob/gh-pages/assets/img/desktop.png)
 
 </details>
 
 <details>
     <summary>📱 Mobile version</summary>
     
-![]()
+![](https://github.com/diegudeveloper/Proyecto13-Blog-Platzi/blob/gh-pages/assets/img/movil.png)
 
 </details>
