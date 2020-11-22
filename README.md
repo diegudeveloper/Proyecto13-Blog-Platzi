@@ -5,7 +5,7 @@
 Ese proyecto fue construido con los conocimientos adquiridos con el curso tomado en varias plataformas. El mismo consta de la elaboración de una Pagina Web un Blog Culinario
 
 ## ▶️ Comienza
-Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 12](https://diegudeveloper.github.io/Proyecto13-Blog-Platzi/) y así poder darme tu feedback.
+Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 13](https://diegudeveloper.github.io/Proyecto13-Blog-Platzi/) y así poder darme tu feedback.
 
 ## 👨🏻‍💻 Tecnologías
 1. Html
